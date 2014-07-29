@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Passenger Information System.exe" version="1.0.0.9" publicKeyToken="af21a70cd7dc632a" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Passenger Information System" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Passenger Information System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="3911680">
+      <assemblyIdentity name="itextsharp" version="5.4.3.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>dhP++sm9NoJU+vU0Z7+PhjeDLVU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.pdfa.dll" size="49152">
+      <assemblyIdentity name="itextsharp.pdfa" version="5.4.3.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>6ZOj8/kA0SsUj6w8gWtN1lngwzs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.xtra.dll" size="45056">
+      <assemblyIdentity name="itextsharp.xtra" version="5.4.4.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>79jf8o08LiWHKie05n6Ps8vs29Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Passenger Information System.exe" size="382976">
+      <assemblyIdentity name="Passenger Information System" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SWvF5WmI3XGFO6Ch/zRKNQcRHUE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Images\1074x.jpg" size="169500">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bDGS3mgzQfuhEUphnyFnr1SSeD4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\512x512.ico" size="91767">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rMh3f3eGnPbZE49J/5GSHQuVY/8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Passport.jpg" size="157053">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YgVwrjcyJEHV6gAX3bBREBFbMWo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="References\itextsharp.dll" size="3911680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dhP++sm9NoJU+vU0Z7+PhjeDLVU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="References\itextsharp.pdfa.dll" size="49152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6ZOj8/kA0SsUj6w8gWtN1lngwzs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="References\itextsharp.xtra.dll" size="45056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>79jf8o08LiWHKie05n6Ps8vs29Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="References\Microsoft.Office.Interop.Excel.dll" size="1276720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NEVCIGHkg/arl6UuCFNlxV9F4W0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SCDRESNL.ICO" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gmB51VSQ5JOwNv1TtaNUMEFYmfU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Samsung-PC\Samsung" issuerKeyHash="68aad92b5da4c0b3d2c643ac4882cdb4a0ea7695" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Ii62KgvlFewnEf1kgpv/b7mXH5o=</DigestValue></Reference></SignedInfo><SignatureValue>rcxiBs97qwkZwAIgL9p1TEcOPYpljA9ZsCFmGm/61f138zF6pI7ad/Q2Hjuro1QjvVRL5QCidcGatE98FIu4Ke+4WpTXEiysdCjhfe4IsmDCE/Cz5N5O3mkjW71suTkvEfhiO5uLMw+ZbovJMIkiAE6vMIpcEkfgSMtQNK1O2/Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0lPOIAltrrGWuc71pp+iuoKGtvg6GLorxQrcL+ihm/fxDI/PcrSt3qa1e4++dHP4G9KQYWD2uTS8VHfFUKMdZSU63TnfmGkxN2f6HY3/toJZBo17zL2OJSoMAJA0MUm1YPEoF1puHc+QQ5j8ooDJD8e6ZyHrMZUeJKPKK5jeO6c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9a1f97b96fff9b8264fd1127ec15e50b2ab62e22" Description="" Url=""><as:assemblyIdentity name="Passenger Information System.exe" version="1.0.0.9" publicKeyToken="af21a70cd7dc632a" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Samsung-PC\Samsung</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zsJd28i806mDYl1NAakA/cfx9+8=</DigestValue></Reference></SignedInfo><SignatureValue>bHpvQt0BK1PqFfN8AgPyDOiltLrFZOR8BW7NpXXQn0RzTrhupu9oiiaF/uqxk75XCjVxy1Db4LktjwFc3tH6XJ3Wx+Ic4lvr+QHs+zmHLaSOYTv4EtnI5Dp2kU+Ng0J3RPjgxOLZltFItQ+dyq54KpJZxbdrZeMfy7+PQgKcwmg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0lPOIAltrrGWuc71pp+iuoKGtvg6GLorxQrcL+ihm/fxDI/PcrSt3qa1e4++dHP4G9KQYWD2uTS8VHfFUKMdZSU63TnfmGkxN2f6HY3/toJZBo17zL2OJSoMAJA0MUm1YPEoF1puHc+QQ5j8ooDJD8e6ZyHrMZUeJKPKK5jeO6c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQaLf0+Z+HiJRCfNwUafeQiDANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAUwBhAG0AcwB1AG4AZwAtAFAAQwBcAFMAYQBtAHMAdQBuAGcwHhcNMTMwMTE0MDMzODQyWhcNMTQwMTE0MDkzODQyWjAvMS0wKwYDVQQDHiQAUwBhAG0AcwB1AG4AZwAtAFAAQwBcAFMAYQBtAHMAdQBuAGcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANJTziAJba6xlrnO9aaforqChrb4Ohi6K8UK3C/ooZv38QyPz3K0rd6mtXuPvnRz+BvSkGFg9rk0vFR3xVCjHWUlOt0535hpMTdn+h2N/7aCWQaNe8y9jiUqDACQNDFJtWDxKBdabh3PkEOY/KKAyQ/Humch6zGVHiSjyiuY3junAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAJuj/xafEER/12fqR9ykQuvV7rZ+Q3l7ZX1WfycXeYSpybkWxoaCbcDMPETkXVvCRaEBUT1aqZ0rOx/+bzI7r8/x9EvRrXNEce7sCsb44j1d+/bVPjPnfZIe9PeHARW6p2x/jcSYWmyR0V1bXtD+7qNOxUL2EsVo1ddSbonbPu48=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

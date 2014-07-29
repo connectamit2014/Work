@@ -1,0 +1,7 @@
+C:\Users\Sahil\Desktop\amit\PassportSolution\PDFWork\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Sahil\Desktop\amit\PassportSolution\PDFWork\bin\Debug\PDFWork.exe
+C:\Users\Sahil\Desktop\amit\PassportSolution\PDFWork\bin\Debug\PDFWork.pdb
+C:\Users\Sahil\Desktop\amit\PassportSolution\PDFWork\bin\Debug\itextsharp.dll
+C:\Users\Sahil\Desktop\amit\PassportSolution\PDFWork\bin\Debug\itextsharp.pdfa.dll
+C:\Users\Sahil\Desktop\amit\PassportSolution\PDFWork\obj\x86\Debug\PDFWork.exe
+C:\Users\Sahil\Desktop\amit\PassportSolution\PDFWork\obj\x86\Debug\PDFWork.pdb
